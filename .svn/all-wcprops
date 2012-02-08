@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mmorpg/!svn/ver/11014/yunying/embeded-http-server/.classpath
+END
+version.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/version.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/.project
+END
+hs-urlmapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/hs-urlmapping.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/build.xml
+END

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hs-urlmapping>
+	<mapping-context context="/a" contextClass = "com.ourpalm.httpserver.core.CjshHttpHandler">
+		<mapping-entry>
+			<url>/b</url>
+			<handle-class>com.ourpalm.httpserver.servicehandler.DummyServiceHandler</handle-class>
+		</mapping-entry>
+		
+	</mapping-context>
+</hs-urlmapping>

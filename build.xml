@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="antwebproject" default="clean" basedir=".">
+
+    <property name="package.dir" value="package"/>
+	<property name="package.dir.conf" value="package"/>
+    <property name="lib.dir" value="lib"/>
+	<property name="dist.base.dir" value="dist"/>
+	<property name="src.dir" value="src"></property>
+	<property file="version.properties"/>
+	
+	<path id="classpath">
+	    <fileset file="${lib.dir}" includes="**/*.jar" />
+	</path>
+
+    <target name="init">
+       	<delete dir="${package.dir}"/>
+    	<delete dir="${dist.base.dir}" />
+		<mkdir dir="${dist.base.dir}" />
+    </target>
+
+    
+    <target name="compile" depends="init">
+       	<mkdir dir="${package.dir}"/>
+    	<javac srcdir="${src.dir}" destdir="${package.dir}" classpathref="classpath" encoding="UTF-8" />
+    </target>
+
+    <target name="jar" depends="compile">
+		<jar destfile="${dist.base.dir}/ourpalm-httpserver-${major.version}.${minor.version}.${revision}.jar" basedir="${package.dir}"></jar>
+    </target>
+
+	<target name="clean" depends="jar">
+		<delete dir="${package.dir}" />
+	</target>
+</project>

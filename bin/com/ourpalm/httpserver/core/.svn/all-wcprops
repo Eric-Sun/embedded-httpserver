@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core
+END
+ContextMappingAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/ContextMappingAware.java
+END
+HttpExchangeAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/HttpExchangeAware.java
+END
+CjshHttpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/CjshHttpHandler.java
+END
+HttpServerConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/HttpServerConfig.java
+END
+RequestParametersAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/RequestParametersAware.java
+END
+ServiceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mmorpg/!svn/ver/11012/yunying/embeded-http-server/src/com/ourpalm/httpserver/core/ServiceHandler.java
+END
